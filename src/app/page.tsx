@@ -1,4 +1,3 @@
-'use client'
 import React, { useState, useEffect } from 'react';
 
 export default function Page() {
@@ -40,8 +39,8 @@ export default function Page() {
   return (
     <>
     <div className={darkMode ? 'dark-mode' : ''}>
-      <button onClick={() => setDarkMode(!darkMode)}>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eclipse"><circle cx="12" cy="12" r="10"/><path d="M12 2a7 7 0 1 0 10 10"/></svg>
+      <button title='buttons' onClick={() => setDarkMode(!darkMode)}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="12" cy="12" r="10"/><path d="M12 2a7 7 0 1 0 10 10"/></svg>
       </button>
       {/* Rest of your JSX goes here */}
       <div className="text-2xl my-12 gap-8 flex justify-center">
@@ -62,7 +61,7 @@ export default function Page() {
           onChange={(e) => setNewTask(e.target.value)}
           />
         <button title="button" className="p-2">
-        <svg className='' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+        <svg className='' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
         </button>
       </form>
       <div id="Task" className='my-20 flex justify-center gap-4 flex-wrap rounded-lg'>
