@@ -20,7 +20,7 @@ export default function Navbar() {
                     <h1 className="p-4 font-bold text-xl hover:scale-100 scale-90 duration-300 ">Ixtaa</h1>
                     <div className="font-semibold p-5 flex flex-col md:flex md:justify-center">
                         <Link className="px-3 hover:scale-100 scale-95 hover:text-sky-950 duration-300" href="">Home</Link>
-                        <Link className="px-3 hover:scale-100 scale-95 hover:text-sky-950 duration-300" href="">Projects</Link>
+                        <Link className="px-3 hover:scale-100 scale-95 hover:text-sky-950 duration-300 a" href="">Projects</Link>
                         <Link className="px-3 hover:scale-100 scale-95 hover:text-sky-950 duration-300" href="">About Me</Link>
                         <Link className="px-3 hover:scale-100 scale-95 hover:text-sky-950 duration-300" href="">Contacts</Link>
                     </div>
